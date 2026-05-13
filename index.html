@@ -1,4 +1,31 @@
-<h1>Hello, my name is Valentyna and it is my first commit</h1>
-<h3><i>I try to resolve a conflict </i></h3>
-<p>This text was updated in both branches and conflict was resolved.</p>
+<!doctype html>
+<html>
+  <head>
+    <title>Lab Release v1.0</title>
+  </head>
+  <body>
+    <h1>Hello, my name is Valentyna and it is my first commit</h1>
+    <h3><i>I try to resolve a conflict </i></h3>
+    <p>This text was updated in both branches and conflict was resolved.</p>
+    <button onclick="trackButtonClick()">Click me</button>
 
+    <br /><br />
+
+    <a href="https://github.com/ValentynaFedorchuk" target="_blank" onclick="trackLinkClick()">
+      Visit my GitHub
+    </a>
+
+    <script>
+      console.log("Application started");
+
+      function trackButtonClick() {
+        console.log("Button clicked");
+        alert("Button was clicked!");
+      }
+
+      function trackLinkClick() {
+        console.log("GitHub link clicked");
+      }
+    </script>
+  </body>
+</html>
